@@ -4,13 +4,13 @@ from typing import List, Optional
 
 from sqlalchemy import create_engine, Column, Integer, String, Boolean
 from sqlalchemy.orm import declarative_base, sessionmaker
-
+import os
 
 # --------------------------------------------------
 # DATABASE CONNECTION
 # --------------------------------------------------
 
-DATABASE_URL = "postgresql://myuser:mysecurepassword@postgres:5432/mydatabase"
+DATABASE_URL = os.getenv("DATABASE_URL")
 
 engine = create_engine(DATABASE_URL)
 
@@ -217,3 +217,4 @@ def delete_task(task_id: int):
 
     finally:
         db.close()
+# Kubernetes rolling update v2

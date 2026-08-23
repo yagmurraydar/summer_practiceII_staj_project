@@ -22,5 +22,12 @@ spec:
           image: task-manager-api:latest
           imagePullPolicy: Never
 
+          env:
+            - name: DATABASE_URL
+              valueFrom:
+                secretKeyRef:
+                  name: postgres-secret
+                  key: DATABASE_URL
+
           ports:
             - containerPort: 8000
