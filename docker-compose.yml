@@ -22,7 +22,8 @@ services:
   api:
     image: 274197531864.dkr.ecr.eu-north-1.amazonaws.com/task-manager-api:latest
     container_name: task_manager_api
-
+    environment:
+      DATABASE_URL: postgresql://myuser:mysecurepassword@postgres:5432/mydatabase
     ports:
       - "8000:8000"
 
