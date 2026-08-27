@@ -25,10 +25,9 @@ jobs:
 
       - name: Build and push Docker image
         run: |
-          docker build -t task-manager-api:latest .
-          docker tag task-manager-api:latest 274197531864.dkr.ecr.eu-north-1.amazonaws.com/task-manager-api:latest
-          docker push 274197531864.dkr.ecr.eu-north-1.amazonaws.com/task-manager-api:latest
-
+          docker build -t task-manager-api:${{ github.sha }} .
+          docker tag task-manager-api:${{ github.sha }} 274197531864.dkr.ecr.eu-north-1.amazonaws.com/task-manager-api:${{ github.sha }}
+          docker push 274197531864.dkr.ecr.eu-north-1.amazonaws.com/task-manager-api:${{ github.sha }}
       - name: Deploy to EC2
         uses: appleboy/ssh-action@v1.2.0
         with:
@@ -36,6 +35,7 @@ jobs:
           username: ${{ secrets.EC2_USER }}
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
-            cd ~/summer_practiceII_staj_project
-            docker compose pull api
-            docker compose up -d
+           cd ~/summer_practiceII_staj_project
+           export IMAGE_TAG=${{ github.sha }}
+           docker compose pull api
+           docker compose up -d
