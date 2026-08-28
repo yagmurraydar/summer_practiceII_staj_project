@@ -517,13 +517,9 @@ Bu sayede proje, yalnızca çalışan bir uygulamadan ziyade; **uygulamanın gel
 # Mimari Diyagram
 
 <p align="center">
-  <img src="images/ozet.png" alt="Cloud-Native DevOps Architecture" width="900">
+  <img src="./images/ozet.png" alt="Cloud-Native DevOps Architecture" width="900">
 </p>
 
-
-
-
-
 <p align="center">
-  <img src="images/portfolyo.png" alt="Cloud-Native DevOps Architecture" width="900">
+  <img src="./images/portfolyo.png" alt="Cloud-Native DevOps Architecture" width="900">
 </p>
