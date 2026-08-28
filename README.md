@@ -517,7 +517,7 @@ Bu sayede proje, yalnızca çalışan bir uygulamadan ziyade; **uygulamanın gel
 # Mimari Diyagram
 
 <p align="center">
-  <img src="./images/ozet.png" alt="Cloud-Native DevOps Architecture" width="900">
+  <img src="https://github.com/yagmurraydar/summer_practiceII_staj_project/blob/main/images/ozet.png?raw=true" alt="Cloud-Native DevOps Architecture" width="900">
 </p>
 
 
