@@ -514,10 +514,8 @@ Süreç boyunca yalnızca başarılı kurulumlar değil, gerçek geliştirme pro
 
 Bu sayede proje, yalnızca çalışan bir uygulamadan ziyade; **uygulamanın geliştirilmesi, containerize edilmesi, test edilmesi, Kubernetes ortamında yönetilmesi, AWS üzerinde çalıştırılması ve CI/CD süreçlerinin uygulanmasını kapsayan uygulamalı bir Cloud-Native DevOps projesine** dönüştürüldü.
 
-# Mimari Diyagram
+# 🏗️ Mimari Diyagram
 
-<p align="center">
-  <img src="https://github.com/yagmurraydar/summer_practiceII_staj_project/blob/main/images/ozet.png?raw=true" alt="Cloud-Native DevOps Architecture" width="900">
-</p>
+![Cloud-Native DevOps Architecture](https://github.com/yagmurraydar/summer_practiceII_staj_project/blob/main/images/ozet.png?raw=true)
 
 
