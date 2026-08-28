@@ -521,5 +521,6 @@ Bu sayede proje, yalnızca çalışan bir uygulamadan ziyade; **uygulamanın gel
 </p>
 
 <p align="center">
-  <img src="./images/portfolyo.png" alt="Cloud-Native DevOps Architecture" width="900">
+  <img src="./images/portfolyo%20.png" alt="Cloud-Native DevOps Architecture" width="900">
 </p>
+
