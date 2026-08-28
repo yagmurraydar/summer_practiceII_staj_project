@@ -520,7 +520,4 @@ Bu sayede proje, yalnızca çalışan bir uygulamadan ziyade; **uygulamanın gel
   <img src="./images/ozet.png" alt="Cloud-Native DevOps Architecture" width="900">
 </p>
 
-<p align="center">
-  <img src="./images/portfolyo%20.png" alt="Cloud-Native DevOps Architecture" width="900">
-</p>
 
