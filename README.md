@@ -1,5 +1,3 @@
-<img width="1024" height="1536" alt="portfolyo " src="https://github.com/user-attachments/assets/0cb389d7-94e7-4f41-86ad-347f9484160b" />#  Cloud-Native DevOps Capstone Project
-
 ## Task Manager API – CI/CD Pipeline with AWS, Docker and Kubernetes
 
 Bu proje, FastAPI tabanlı bir **Task Manager API** uygulamasının Docker ile containerize edilmesini, Docker Compose ile PostgreSQL veritabanı ile birlikte çalıştırılmasını, Kubernetes üzerinde yerel olarak yönetilmesini ve AWS altyapısı üzerinde GitHub Actions kullanılarak CI/CD süreçlerinin uygulanmasını kapsamaktadır.
